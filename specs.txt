@@ -1,0 +1,26 @@
+1.
+Behavior: The change for a penny ($0.01)
+Input: 1
+Output: 1
+
+2.
+Behavior: The change for a nickel ($0.05)
+Input: 1 nickel
+Output: 5 pennies
+
+3.
+Behavior: The change for a dime ($0.10)
+Input: 1 dime
+Output: 2 nickels
+
+4.
+Behavior: The change for a quarter ($0.25)
+Input: 1 quarter
+Output: 2 dimes and 1 nickel
+
+5.
+Behavior: The change for $0.35
+Input: $0.35
+Output: 1 quarter and 1 dime
+
+6.
