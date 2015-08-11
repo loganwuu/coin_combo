@@ -1,26 +1,44 @@
 1.
-Behavior: The change for a penny ($0.01)
-Input: 1
-Output: 1
+    Behavior: Return 1 cent
+    Input: 1 cent change
+    Output: ["1 penny", "0 nickel", "0 dime", "0 quarter"]
 
 2.
-Behavior: The change for a nickel ($0.05)
-Input: 1 nickel
-Output: 5 pennies
+    Behavior: Return 5 cents
+    Input: 5 cents change
+    Output: ["0 penny", "1 nickel", "0 dime", "0 quarter"]
 
 3.
-Behavior: The change for a dime ($0.10)
-Input: 1 dime
-Output: 2 nickels
+    Behavior: Returns 10 cents
+    Input: 10 cents change
+    Output: ["0 penny", "0 nickel", "1 dime", "0 quarter"]
 
 4.
-Behavior: The change for a quarter ($0.25)
-Input: 1 quarter
-Output: 2 dimes and 1 nickel
+    Behavior: Returns 25 cents
+    Input: 25 cents change
+    Output: ["0 penny", "0 nickel", "0 dime", "1 quarter"]
 
 5.
-Behavior: The change for $0.35
-Input: $0.35
-Output: 1 quarter and 1 dime
+    Behavior: Returns 26 cents
+    Input: 26 cents change
+    Output: ["1 penny", "0 nickel", "0 dime", "1 quarter"]
 
 6.
+    Behavior: Returns 6 cents
+    Input: 6 cents change
+    Output: ["1 penny", "1 nickel", "0 dime", "0 quarter"]
+
+7.
+    Behavior: Returns 11 cents
+    Input: 11 cents change
+    Output: ["1 penny", "0 nickel", "1 dime", "0 quarter"]
+
+8.
+    Behavior: Returns 2 cents
+    Input: 2 cents change
+    Output: ["2 pennies", "0 nickel", "0 dime", "0 quarter"]
+
+9.
+    Behavior: Returns 99 cents
+    Input: 99 cents change
+    Output: ["4 pennies", "0 nickel", "2 dimes", "3 quarters"]
