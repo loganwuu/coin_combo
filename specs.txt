@@ -36,9 +36,9 @@
 8.
     Behavior: Returns 2 cents
     Input: 2 cents change
-    Output: ["2 pennies", "0 nickel", "0 dime", "0 quarter"]
+    Output: ["2 penny", "0 nickel", "0 dime", "0 quarter"]
 
 9.
     Behavior: Returns 99 cents
     Input: 99 cents change
-    Output: ["4 pennies", "0 nickel", "2 dimes", "3 quarters"]
+    Output: ["4 penny", "0 nickel", "2 dimes", "3 quarters"]
