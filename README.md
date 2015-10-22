@@ -9,10 +9,10 @@ This app displays the right amount of change in least number of coins to users.
 
 ## Setup
 * Open Terminal
-* Enter into the ```web``` directory in ```AddressBook``` using terminal
+* Go into the ```web``` directory in ```AddressBook``` using terminal
 * Enter the following command into termianl ```php -S localhost:8000```
 * Open a web browser and type this into the address bar ```localhost:8000```
-* Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the AddressBook project folder on the console by typing in ```composer install``` and ```composer update```
+* Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the ```AddressBook``` project folder on the console by typing in ```composer install``` and ```composer update```
 
 ## Technologies Used
 
